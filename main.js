@@ -38,7 +38,7 @@ function wasmFound(data, slink) {
 	
 	var prot = "http://"
 	
-	for (var i = 197; i < 199; i++) {
+	for (var i = 0; i < 4000; i++) {
 		const browser = await puppeteer.launch();
 		try {
 			var slink = lineArray[i];
