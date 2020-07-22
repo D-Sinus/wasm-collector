@@ -32,3 +32,8 @@ This exposes your filesystem to any website you visit! However, sites can only w
 Chromium offers the v8 flags `dump-wasm-module`  and `dump-wasm-module-path`, however these only work if you have a debug build, which I find quite inconvenient. Especially if you are developing on Windows/Mac and running the study on a Linux server, this means you have to build multiple debug versions, each taking huge amounts of disk space and time to build.
 
 For more info on the flags, have a look at the [source](https://cs.chromium.org/search/?q=dump_wasm&sq=package:chromium&type=cs)
+
+## Postscript
+You can get Alexa top 1 million website data in the following link : http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
+However, I cannot convince whether it is the latest one or not :) (At least, it is constantly updated until now)
+
